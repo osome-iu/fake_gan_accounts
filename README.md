@@ -1,6 +1,6 @@
 # Introduction
 
-This repo contains the code and information for the paper "Characteristics and prevalence of fake social media accounts with AI-generated profiles".
+This repo contains the code and information for the paper "Characteristics and prevalence of fake social media profiles with AI-generated faces".
 
 We analyze the fake accounts using GAN-generated images as their profiles on Twitter.
 
