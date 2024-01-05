@@ -56,16 +56,18 @@ So, additional examinations are necessary to determine the true nature of the im
 
 # Data release
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10436889.svg)](https://doi.org/10.5281/zenodo.10436889)
+
 We release the `TwitterGAN` dataset collected for our study.
 The dataset contains 1,353 fake accounts with GAN-generated profiles.
 We share their recent tweets and their profile images.
-You can download the files from Zenodo (link coming soon).
+You can download the files from [Zenodo](https://zenodo.org/doi/10.5281/zenodo.10436888).
 
-- `TwitterGAN_tweets.ndjson.gz`: User objects and recent tweets from each account, collected using Twitter's V2 API. Each line is a JSON object containing the information for one account.
+- `TwitterGAN_tweets.ndjson.gz`: User objects and recent tweets of the `TwitterGAN` accounts, collected using Twitter's V2 API. Each line is a JSON object containing the information for one account.
 - `TwitterGAN_profiles.tar.gz`: Profile images for the accounts.
-- `TwitterGAN_id_label_mapping.csv`: Mapping between user IDs, labels, and the profile image file names.
+- `TwitterGAN_id_label_mapping.csv`: Mapping between user IDs, labels, and the file names of the profile images.
 
-We also release the basic information for accounts in `RandomTwitter`.
-Their profile images are publicly available.
+We also release the basic information of accounts in `RandomTwitter`.
+Their profile images are publicly accessible.
 
 - `RandomTwitter_id_ganed.csv.gz`: User IDs, profile image URLs, and the GANEyeDistance values for accounts in `RandomTwitter`
