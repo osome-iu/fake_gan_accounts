@@ -38,7 +38,7 @@ import ganed
 
 ganed_calc = ganed.GANEyeDistance()
 
-# Assumeing image_path is a path to an image on your disk
+# Assuming image_path is a path to an image on your disk
 ganed_result = ganed_calc.calculate_distance(path_to_image=image_path)
 
 # Assuming pil_image is a PIL.Image.Image instance
